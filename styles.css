@@ -1,0 +1,18 @@
+.app{
+  font-family: Inter, system-ui, Arial, sans-serif;
+  max-width:800px;
+  margin:32px auto;
+  padding:16px;
+}
+h1{ text-align:center; margin-bottom:16px; }
+.form-container{ background:#fff; border:1px solid #e6e6e6; padding:16px; border-radius:8px; box-shadow: 0 6px 18px rgba(0,0,0,0.04); }
+.row{ display:flex; gap:12px; }
+.field{ display:flex; flex-direction:column; margin-bottom:12px; flex:1; }
+.field label{ font-weight:600; margin-bottom:6px; }
+.field input, .field textarea{ padding:8px 10px; border:1px solid #ccc; border-radius:6px; font-size:14px; }
+.field textarea{ min-height:80px; resize:vertical; }
+.error{ color:#c0392b; margin-top:6px; display:block; }
+.actions{ display:flex; gap:8px; justify-content:flex-end; margin-top:8px; }
+.actions button{ padding:8px 14px; border-radius:8px; border:none; cursor:pointer; }
+.actions button[type="submit"]{ background:#2d8cff; color:white; }
+.preview{ margin-top:16px; background:#f7f9fc; padding:12px; border-radius:6px; border:1px solid #edf2f7; }
